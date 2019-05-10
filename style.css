@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:700|Orbitron:500|Roboto:400,900');
+
+body{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background: #111;
+  color: #FEFEFE;
+}
+
+.scene1{
+  margin-top: 200px;
+}
+
+.genre{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4em;
+  text-indent: 2px;
+}
+
+.music{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 10em;
+  letter-spacing: 60px;
+  text-indent: 60px;
+}
+
+.eng{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 4em;
+  letter-spacing: 20px;
+  text-indent: 30px;
+}
+
+.composer{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  letter-spacing: 5px;
+  text-indent: 5px;
+}
+
+.timer{
+  margin-top: 30px;
+}
+
+.timer > .disp-time, .disp-time-bomb {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: 200px;
+  margin: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5em;
+  font-weight: 400;
+}
+
+.disp-time-title{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7em;
+}
